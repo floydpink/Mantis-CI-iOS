@@ -19,11 +19,11 @@
  -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
     id        = "com.floydpink.ios.travisci"
-    version   = "0.7.0">
+    version   = "0.9.0">
     <name>Travis-CI Mobile</name>
     
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Android &amp; iOS applications (done in PhoneGap) for Travis CI.
     </description>
     
     <author href="https://github.com/floydpink" email="imbleedingme@googlemail.com">
@@ -86,9 +86,6 @@
     <feature name="FileTransfer">
         <param name="ios-package" value="CDVFileTransfer"/>
     </feature>
-    <feature name="Capture">
-        <param name="ios-package" value="CDVCapture"/>
-    </feature>
     <feature name="Battery">
         <param name="ios-package" value="CDVBattery"/>
     </feature>
@@ -97,9 +94,6 @@
     </feature>
     <feature name="Echo">
         <param name="ios-package" value="CDVEcho"/>
-    </feature>
-    <feature name="Globalization">
-        <param name="ios-package" value="CDVGlobalization"/>
     </feature>
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser"/>
