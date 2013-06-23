@@ -29,6 +29,7 @@
 		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		47290F0A17777A2A00BAE9E2 /* ps in Resources */ = {isa = PBXBuildFile; fileRef = 47290F0917777A2A00BAE9E2 /* ps */; };
 		472E483F1773E0EC00663B66 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		472E48421773E28300663B66 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E48411773E28300663B66 /* ImageIO.framework */; };
 		472E48441773E29000663B66 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E48431773E29000663B66 /* OpenAL.framework */; };
@@ -83,6 +84,7 @@
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TravisCI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TravisCI-Prefix.pch"; sourceTree = "<group>"; };
+		47290F0917777A2A00BAE9E2 /* ps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ps; sourceTree = "<group>"; };
 		472E48411773E28300663B66 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		472E48431773E29000663B66 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		47F32E1B1773EC0B00167277 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				F840E1F0165FE0F500CFE078 /* config.xml */,
 				47F32E1B1773EC0B00167277 /* Default-568h@2x.png */,
+				47290F0917777A2A00BAE9E2 /* ps */,
 				301BF56E109A69640062928A /* www */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -312,6 +315,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
 				47F32E1C1773EC0B00167277 /* Default-568h@2x.png in Resources */,
+				47290F0A17777A2A00BAE9E2 /* ps in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
