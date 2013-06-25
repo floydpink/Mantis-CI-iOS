@@ -33,6 +33,36 @@
 		472E483F1773E0EC00663B66 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		472E48421773E28300663B66 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E48411773E28300663B66 /* ImageIO.framework */; };
 		472E48441773E29000663B66 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E48431773E29000663B66 /* OpenAL.framework */; };
+		47A2A7541779073200D711CB /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
+		47A2A7551779073200D711CB /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		47A2A7561779073200D711CB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		47A2A7571779073200D711CB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		47A2A7581779073200D711CB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		47A2A7591779073200D711CB /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		47A2A75A1779073200D711CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F32E1B1773EC0B00167277 /* Default-568h@2x.png */; };
+		47A2A75B1779073200D711CB /* ps in Resources */ = {isa = PBXBuildFile; fileRef = 47290F0917777A2A00BAE9E2 /* ps */; };
+		47A2A75D1779073200D711CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		47A2A75E1779073200D711CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		47A2A75F1779073200D711CB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		47A2A7611779073200D711CB /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E48431773E29000663B66 /* OpenAL.framework */; };
+		47A2A7621779073200D711CB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E48411773E28300663B66 /* ImageIO.framework */; };
+		47A2A7631779073200D711CB /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		47A2A7641779073200D711CB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		47A2A7651779073200D711CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		47A2A7661779073200D711CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		47A2A7671779073200D711CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		47A2A7681779073200D711CB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B4109A6A2B0062928A /* AddressBook.framework */; };
+		47A2A7691779073200D711CB /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B6109A6A2B0062928A /* AddressBookUI.framework */; };
+		47A2A76A1779073200D711CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B8109A6A2B0062928A /* AudioToolbox.framework */; };
+		47A2A76B1779073200D711CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BA109A6A2B0062928A /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		47A2A76C1779073200D711CB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BC109A6A2B0062928A /* CFNetwork.framework */; };
+		47A2A76D1779073200D711CB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BE109A6A2B0062928A /* CoreLocation.framework */; };
+		47A2A76E1779073200D711CB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C0109A6A2B0062928A /* MediaPlayer.framework */; };
+		47A2A76F1779073200D711CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C2109A6A2B0062928A /* QuartzCore.framework */; };
+		47A2A7701779073200D711CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */; };
+		47A2A7711779073200D711CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		47A2A7721779073200D711CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		47A2A77C177913EF00D711CB /* TravisCI-Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */; };
 		47F32E1C1773EC0B00167277 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F32E1B1773EC0B00167277 /* Default-568h@2x.png */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
@@ -47,6 +77,13 @@
 			remoteInfo = CordovaLib;
 		};
 		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		47A2A7501779073200D711CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
 			proxyType = 1;
@@ -87,6 +124,8 @@
 		47290F0917777A2A00BAE9E2 /* ps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ps; sourceTree = "<group>"; };
 		472E48411773E28300663B66 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		472E48431773E29000663B66 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		47A2A7771779073200D711CB /* Travis-CI-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-CI-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Dev-Info.plist"; path = "../TravisCI-Dev-Info.plist"; sourceTree = "<group>"; };
 		47F32E1B1773EC0B00167277 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* TravisCI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Info.plist"; path = "../TravisCI-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -119,6 +158,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47A2A7601779073200D711CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A2A7611779073200D711CB /* OpenAL.framework in Frameworks */,
+				47A2A7621779073200D711CB /* ImageIO.framework in Frameworks */,
+				47A2A7631779073200D711CB /* libCordova.a in Frameworks */,
+				47A2A7641779073200D711CB /* AssetsLibrary.framework in Frameworks */,
+				47A2A7651779073200D711CB /* Foundation.framework in Frameworks */,
+				47A2A7661779073200D711CB /* UIKit.framework in Frameworks */,
+				47A2A7671779073200D711CB /* CoreGraphics.framework in Frameworks */,
+				47A2A7681779073200D711CB /* AddressBook.framework in Frameworks */,
+				47A2A7691779073200D711CB /* AddressBookUI.framework in Frameworks */,
+				47A2A76A1779073200D711CB /* AudioToolbox.framework in Frameworks */,
+				47A2A76B1779073200D711CB /* AVFoundation.framework in Frameworks */,
+				47A2A76C1779073200D711CB /* CFNetwork.framework in Frameworks */,
+				47A2A76D1779073200D711CB /* CoreLocation.framework in Frameworks */,
+				47A2A76E1779073200D711CB /* MediaPlayer.framework in Frameworks */,
+				47A2A76F1779073200D711CB /* QuartzCore.framework in Frameworks */,
+				47A2A7701779073200D711CB /* SystemConfiguration.framework in Frameworks */,
+				47A2A7711779073200D711CB /* MobileCoreServices.framework in Frameworks */,
+				47A2A7721779073200D711CB /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -139,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* Travis-CI.app */,
+				47A2A7771779073200D711CB /* Travis-CI-Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				308D052D1370CCF300D202BF /* icons */,
+				47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */,
 				8D1107310486CEB800E47090 /* TravisCI-Info.plist */,
 			);
 			name = Resources;
@@ -235,9 +301,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* TravisCI */ = {
+		1D6058900D05DD3D006BFB54 /* TravisCI-Release */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TravisCI" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TravisCI-Release" */;
 			buildPhases = (
 				47A7D84D1775160B00895D8A /* Run grunt task for building web application */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
@@ -251,9 +317,30 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = TravisCI;
+			name = "TravisCI-Release";
 			productName = TravisCI;
 			productReference = 1D6058910D05DD3D006BFB54 /* Travis-CI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47A2A74E1779073200D711CB /* TravisCI-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A2A7741779073200D711CB /* Build configuration list for PBXNativeTarget "TravisCI-Dev" */;
+			buildPhases = (
+				47A2A7511779073200D711CB /* Run grunt task for building web application */,
+				47A2A7521779073200D711CB /* Copy www directory */,
+				47A2A7531779073200D711CB /* Resources */,
+				47A2A75C1779073200D711CB /* Sources */,
+				47A2A7601779073200D711CB /* Frameworks */,
+				47A2A7731779073200D711CB /* Revert back to development files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A2A74F1779073200D711CB /* PBXTargetDependency */,
+			);
+			name = "TravisCI-Dev";
+			productName = TravisCI;
+			productReference = 47A2A7771779073200D711CB /* Travis-CI-Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -288,7 +375,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* TravisCI */,
+				47A2A74E1779073200D711CB /* TravisCI-Dev */,
+				1D6058900D05DD3D006BFB54 /* TravisCI-Release */,
 			);
 		};
 /* End PBXProject section */
@@ -319,6 +407,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47A2A7531779073200D711CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A2A7541779073200D711CB /* config.xml in Resources */,
+				47A2A7551779073200D711CB /* icon-72.png in Resources */,
+				47A2A7561779073200D711CB /* icon.png in Resources */,
+				47A2A7571779073200D711CB /* icon@2x.png in Resources */,
+				47A2A7581779073200D711CB /* MainViewController.xib in Resources */,
+				47A2A7591779073200D711CB /* icon-72@2x.png in Resources */,
+				47A2A75A1779073200D711CB /* Default-568h@2x.png in Resources */,
+				47A2A75B1779073200D711CB /* ps in Resources */,
+				47A2A77C177913EF00D711CB /* TravisCI-Dev-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -335,6 +439,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "SRC_DIR=\"www/\"\nDST_DIR=\"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/www\"\nCOPY_HIDDEN=\nORIG_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\nif [[ ! -e \"$SRC_DIR\" ]]; then\n  echo \"Path does not exist: $SRC_DIR\"\n  exit 1\nfi\n\nif [[ -n $COPY_HIDDEN ]]; then\n  alias do_find='find \"$SRC_DIR\"'\nelse\n  alias do_find='find -L \"$SRC_DIR\" -name \".*\" -prune -o'\nfi\n\ntime (\n# Code signing files must be removed or else there are\n# resource signing errors.\nrm -rf \"$DST_DIR\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/_CodeSignature\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/PkgInfo\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/embedded.mobileprovision\"\n\n# Directories\nfor p in $(do_find -type d -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  mkdir \"$DST_DIR$subpath\" || exit 1\ndone\n\n# Symlinks\nfor p in $(do_find -type l -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  source=$(readlink $SRC_DIR$subpath)\n  sourcetype=$(stat -f \"%HT%SY\" $source)\n  if [ \"$sourcetype\" = \"Directory\" ]; then\n    mkdir \"$DST_DIR$subpath\" || exit 2\n  else\n    rsync -a \"$source\" \"$DST_DIR$subpath\" || exit 3\n  fi\ndone\n\n# Files\nfor p in $(do_find -type f -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  if ! ln \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" 2>/dev/null; then\n    rsync -a \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" || exit 4\n  fi\ndone\n\n)\nIFS=$ORIG_IFS";
+		};
+		47A2A7511779073200D711CB /* Run grunt task for building web application */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run grunt task for building web application";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "WWW_DIR=\"www/\"\n\ncd $WWW_DIR\n\ngrunt ios-dev\n\nrm -rf node_modules package.json README.md Gruntfile.js js/app/ js/lib/ js/main.min.js css/jquery.mobile-1.3.0.css css/style.css";
+		};
+		47A2A7521779073200D711CB /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SRC_DIR=\"www/\"\nDST_DIR=\"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/www\"\nCOPY_HIDDEN=\nORIG_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\nif [[ ! -e \"$SRC_DIR\" ]]; then\n  echo \"Path does not exist: $SRC_DIR\"\n  exit 1\nfi\n\nif [[ -n $COPY_HIDDEN ]]; then\n  alias do_find='find \"$SRC_DIR\"'\nelse\n  alias do_find='find -L \"$SRC_DIR\" -name \".*\" -prune -o'\nfi\n\ntime (\n# Code signing files must be removed or else there are\n# resource signing errors.\nrm -rf \"$DST_DIR\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/_CodeSignature\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/PkgInfo\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/embedded.mobileprovision\"\n\n# Directories\nfor p in $(do_find -type d -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  mkdir \"$DST_DIR$subpath\" || exit 1\ndone\n\n# Symlinks\nfor p in $(do_find -type l -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  source=$(readlink $SRC_DIR$subpath)\n  sourcetype=$(stat -f \"%HT%SY\" $source)\n  if [ \"$sourcetype\" = \"Directory\" ]; then\n    mkdir \"$DST_DIR$subpath\" || exit 2\n  else\n    rsync -a \"$source\" \"$DST_DIR$subpath\" || exit 3\n  fi\ndone\n\n# Files\nfor p in $(do_find -type f -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  if ! ln \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" 2>/dev/null; then\n    rsync -a \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" || exit 4\n  fi\ndone\n\n)\nIFS=$ORIG_IFS";
+		};
+		47A2A7731779073200D711CB /* Revert back to development files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Revert back to development files";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "WWW_DIR=\"www/\"\n\ncd $WWW_DIR\n\ngit checkout -f -- .";
 		};
 		47A7D84D1775160B00895D8A /* Run grunt task for building web application */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -377,6 +523,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47A2A75C1779073200D711CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A2A75D1779073200D711CB /* main.m in Sources */,
+				47A2A75E1779073200D711CB /* AppDelegate.m in Sources */,
+				47A2A75F1779073200D711CB /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -384,6 +540,11 @@
 			isa = PBXTargetDependency;
 			name = CordovaLib;
 			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+		47A2A74F1779073200D711CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 47A2A7501779073200D711CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,6 +582,44 @@
 				INFOPLIST_FILE = "TravisCI/TravisCI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "Travis-CI";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47A2A7751779073200D711CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisCI/TravisCI-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/TravisCI/TravisCI-Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Travis-CI-Dev";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47A2A7761779073200D711CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisCI/TravisCI-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/TravisCI/TravisCI-Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Travis-CI-Dev";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,11 +711,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TravisCI" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TravisCI-Release" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A2A7741779073200D711CB /* Build configuration list for PBXNativeTarget "TravisCI-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A2A7751779073200D711CB /* Debug */,
+				47A2A7761779073200D711CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
