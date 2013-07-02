@@ -63,6 +63,10 @@
 		47A2A7711779073200D711CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		47A2A7721779073200D711CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		47A2A77C177913EF00D711CB /* TravisCI-Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */; };
+		47E9463D1782892A0054B680 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E9463A1782892A0054B680 /* AppDelegate+notification.m */; };
+		47E9463E1782892A0054B680 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E9463A1782892A0054B680 /* AppDelegate+notification.m */; };
+		47E9463F1782892A0054B680 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E9463C1782892A0054B680 /* PushPlugin.m */; };
+		47E946401782892A0054B680 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E9463C1782892A0054B680 /* PushPlugin.m */; };
 		47F32E1C1773EC0B00167277 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F32E1B1773EC0B00167277 /* Default-568h@2x.png */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
@@ -126,6 +130,10 @@
 		472E48431773E29000663B66 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		47A2A7771779073200D711CB /* Travis-CI-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-CI-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Dev-Info.plist"; path = "../TravisCI-Dev-Info.plist"; sourceTree = "<group>"; };
+		47E946391782892A0054B680 /* AppDelegate+notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+notification.h"; sourceTree = "<group>"; };
+		47E9463A1782892A0054B680 /* AppDelegate+notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+notification.m"; sourceTree = "<group>"; };
+		47E9463B1782892A0054B680 /* PushPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushPlugin.h; sourceTree = "<group>"; };
+		47E9463C1782892A0054B680 /* PushPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushPlugin.m; sourceTree = "<group>"; };
 		47F32E1B1773EC0B00167277 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* TravisCI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Info.plist"; path = "../TravisCI-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -282,6 +290,7 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				47E94634178273F90054B680 /* PushPlugin */,
 			);
 			name = Plugins;
 			path = TravisCI/Plugins;
@@ -296,6 +305,17 @@
 				308D05301370CCF300D202BF /* icon@2x.png */,
 			);
 			path = icons;
+			sourceTree = "<group>";
+		};
+		47E94634178273F90054B680 /* PushPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				47E946391782892A0054B680 /* AppDelegate+notification.h */,
+				47E9463A1782892A0054B680 /* AppDelegate+notification.m */,
+				47E9463B1782892A0054B680 /* PushPlugin.h */,
+				47E9463C1782892A0054B680 /* PushPlugin.m */,
+			);
+			name = PushPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,6 +540,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				47E9463E1782892A0054B680 /* AppDelegate+notification.m in Sources */,
+				47E946401782892A0054B680 /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +552,8 @@
 				47A2A75D1779073200D711CB /* main.m in Sources */,
 				47A2A75E1779073200D711CB /* AppDelegate.m in Sources */,
 				47A2A75F1779073200D711CB /* MainViewController.m in Sources */,
+				47E9463D1782892A0054B680 /* AppDelegate+notification.m in Sources */,
+				47E9463F1782892A0054B680 /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
