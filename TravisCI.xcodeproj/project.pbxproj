@@ -452,7 +452,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "WWW_DIR=\"www/\"\n\ncd $WWW_DIR\n\ngrunt ios-dev\n\nrm -rf node_modules package.json README.md Gruntfile.js js/app/ js/lib/ js/main.min.js css/jquery.mobile-1.3.0.css css/style.css";
+			shellScript = "PATH=$(bash -l -c 'echo $PATH')\n\nWWW_DIR=\"www/\"\n\ncd $WWW_DIR\n\nnpm install\n\ngrunt ios-dev\n\nrm -rf node_modules package.json README.md Procfile localServer.js Gruntfile.js js/app/ js/lib/ js/main.min.js css/jquery.mobile-1.3.0.css css/style.css";
 		};
 		47A2A7521779073200D711CB /* Copy www directory */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -494,7 +494,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "WWW_DIR=\"www/\"\n\ncd $WWW_DIR\n\ngrunt ios\n\nrm -rf node_modules package.json README.md Gruntfile.js js/app/ js/lib/ js/main.min.js css/jquery.mobile-1.3.0.css css/style.css";
+			shellScript = "PATH=$(bash -l -c 'echo $PATH')\n\nWWW_DIR=\"www/\"\n\ncd $WWW_DIR\n\nnpm install\n\ngrunt ios\n\nrm -rf node_modules package.json README.md Procfile localServer.js Gruntfile.js js/app/ js/lib/ js/main.min.js css/jquery.mobile-1.3.0.css css/style.css";
 		};
 		47A7D84E1775183200895D8A /* Revert back to development files */ = {
 			isa = PBXShellScriptBuildPhase;
