@@ -62,7 +62,12 @@
 		47A2A7701779073200D711CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */; };
 		47A2A7711779073200D711CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		47A2A7721779073200D711CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		47A2A77C177913EF00D711CB /* TravisCI-Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */; };
+		47A9B6F617B4C2C80036EB9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A9B6F517B4C2C80036EB9E /* Default.png */; };
+		47A9B6F817B4C2D80036EB9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A9B6F717B4C2D80036EB9E /* Default@2x.png */; };
+		47A9B6FA17B4C2F50036EB9E /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A9B6F917B4C2F50036EB9E /* Default-Portrait~ipad.png */; };
+		47A9B6FC17B4C3020036EB9E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A9B6FB17B4C3020036EB9E /* Default-Portrait@2x~ipad.png */; };
+		47A9B70417B4C5A60036EB9E /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A9B70317B4C5A60036EB9E /* Default-Landscape~ipad.png */; };
+		47A9B70617B4C5AC0036EB9E /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A9B70517B4C5AC0036EB9E /* Default-Landscape@2x~ipad.png */; };
 		47F32E1C1773EC0B00167277 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F32E1B1773EC0B00167277 /* Default-568h@2x.png */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
@@ -126,6 +131,12 @@
 		472E48431773E29000663B66 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		47A2A7771779073200D711CB /* Travis-CI-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-CI-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Dev-Info.plist"; path = "../TravisCI-Dev-Info.plist"; sourceTree = "<group>"; };
+		47A9B6F517B4C2C80036EB9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		47A9B6F717B4C2D80036EB9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		47A9B6F917B4C2F50036EB9E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		47A9B6FB17B4C3020036EB9E /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		47A9B70317B4C5A60036EB9E /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		47A9B70517B4C5AC0036EB9E /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		47F32E1B1773EC0B00167277 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* TravisCI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Info.plist"; path = "../TravisCI-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -212,7 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				F840E1F0165FE0F500CFE078 /* config.xml */,
-				47F32E1B1773EC0B00167277 /* Default-568h@2x.png */,
 				47290F0917777A2A00BAE9E2 /* ps */,
 				301BF56E109A69640062928A /* www */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
@@ -239,6 +249,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				47A9B6E517B4C26B0036EB9E /* splash */,
 				308D052D1370CCF300D202BF /* icons */,
 				47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */,
 				8D1107310486CEB800E47090 /* TravisCI-Info.plist */,
@@ -296,6 +307,20 @@
 				308D05301370CCF300D202BF /* icon@2x.png */,
 			);
 			path = icons;
+			sourceTree = "<group>";
+		};
+		47A9B6E517B4C26B0036EB9E /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				47A9B70517B4C5AC0036EB9E /* Default-Landscape@2x~ipad.png */,
+				47A9B70317B4C5A60036EB9E /* Default-Landscape~ipad.png */,
+				47A9B6FB17B4C3020036EB9E /* Default-Portrait@2x~ipad.png */,
+				47A9B6F917B4C2F50036EB9E /* Default-Portrait~ipad.png */,
+				47A9B6F717B4C2D80036EB9E /* Default@2x.png */,
+				47A9B6F517B4C2C80036EB9E /* Default.png */,
+				47F32E1B1773EC0B00167277 /* Default-568h@2x.png */,
+			);
+			path = splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,7 +444,12 @@
 				47A2A7591779073200D711CB /* icon-72@2x.png in Resources */,
 				47A2A75A1779073200D711CB /* Default-568h@2x.png in Resources */,
 				47A2A75B1779073200D711CB /* ps in Resources */,
-				47A2A77C177913EF00D711CB /* TravisCI-Dev-Info.plist in Resources */,
+				47A9B6F617B4C2C80036EB9E /* Default.png in Resources */,
+				47A9B6F817B4C2D80036EB9E /* Default@2x.png in Resources */,
+				47A9B6FA17B4C2F50036EB9E /* Default-Portrait~ipad.png in Resources */,
+				47A9B6FC17B4C3020036EB9E /* Default-Portrait@2x~ipad.png in Resources */,
+				47A9B70417B4C5A60036EB9E /* Default-Landscape~ipad.png in Resources */,
+				47A9B70617B4C5AC0036EB9E /* Default-Landscape@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
