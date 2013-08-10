@@ -19,7 +19,7 @@
  -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
     id        = "com.floydpink.ios.travisci"
-    version   = "0.9.0">
+    version   = "0.9.4">
     <name>Travis-CI Mobile</name>
     
     <description>
@@ -37,7 +37,7 @@
     
     <!-- Preferences for iOS -->
     <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="EnableLocation" value="false" /><!-- DEPRECATED -->
