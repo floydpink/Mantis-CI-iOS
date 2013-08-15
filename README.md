@@ -7,7 +7,7 @@ An iOS app (done in PhoneGap) for Travis-CI (https://github.com/floydpink/Travis
 
 The app has been published to the App Store:
   <p style="float:left;">
-    <a href="https://itunes.apple.com/us/app/travis-ci-mobile/id665742482?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/htmlResources/assets/images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/htmlResources/assets/images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
+    <a href="https://itunes.apple.com/us/app/travis-ci-mobile/id665742482?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/htmlResources/assets/images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;"></a>
   </p>
 
 
