@@ -20,7 +20,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
     id        = "com.floydpink.ios.travisci"
     version   = "0.9.4">
-    <name>Travis-CI Mobile</name>
+    <name>Mantis CI</name>
     
     <description>
         Android &amp; iOS applications (done in PhoneGap) for Travis CI.

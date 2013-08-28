@@ -101,7 +101,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Travis-CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Mantis-CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mantis-CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,12 +125,12 @@
 		308D05301370CCF300D202BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* TravisCI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TravisCI-Prefix.pch"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MantisCI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MantisCI-Prefix.pch"; sourceTree = "<group>"; };
 		47290F0917777A2A00BAE9E2 /* ps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ps; sourceTree = "<group>"; };
 		472E48411773E28300663B66 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		472E48431773E29000663B66 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		47A2A7771779073200D711CB /* Travis-CI-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-CI-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Dev-Info.plist"; path = "../TravisCI-Dev-Info.plist"; sourceTree = "<group>"; };
+		47A2A7771779073200D711CB /* Mantis-CI-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mantis-CI-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A2A77B177913EF00D711CB /* MantisCI-Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MantisCI-Dev-Info.plist"; path = "../MantisCI-Dev-Info.plist"; sourceTree = "<group>"; };
 		47A9B6F517B4C2C80036EB9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		47A9B6F717B4C2D80036EB9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		47A9B6F917B4C2F50036EB9E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		47A9B70517B4C5AC0036EB9E /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		47F32E1B1773EC0B00167277 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		8D1107310486CEB800E47090 /* TravisCI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TravisCI-Info.plist"; path = "../TravisCI-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = TravisCI/config.xml; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MantisCI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MantisCI-Info.plist"; path = "../MantisCI-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = MantisCI/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,14 +207,14 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = TravisCI/Classes;
+			path = MantisCI/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Travis-CI.app */,
-				47A2A7771779073200D711CB /* Travis-CI-Dev.app */,
+				1D6058910D05DD3D006BFB54 /* Mantis-CI.app */,
+				47A2A7771779073200D711CB /* Mantis-CI-Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,11 +239,11 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* TravisCI-Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* MantisCI-Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = TravisCI;
+			path = MantisCI;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -251,11 +251,11 @@
 			children = (
 				47A9B6E517B4C26B0036EB9E /* splash */,
 				308D052D1370CCF300D202BF /* icons */,
-				47A2A77B177913EF00D711CB /* TravisCI-Dev-Info.plist */,
-				8D1107310486CEB800E47090 /* TravisCI-Info.plist */,
+				47A2A77B177913EF00D711CB /* MantisCI-Dev-Info.plist */,
+				8D1107310486CEB800E47090 /* MantisCI-Info.plist */,
 			);
 			name = Resources;
-			path = TravisCI/Resources;
+			path = MantisCI/Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -295,7 +295,7 @@
 			children = (
 			);
 			name = Plugins;
-			path = TravisCI/Plugins;
+			path = MantisCI/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -326,9 +326,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* TravisCI-Release */ = {
+		1D6058900D05DD3D006BFB54 /* MantisCI-Release */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TravisCI-Release" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MantisCI-Release" */;
 			buildPhases = (
 				47A7D84D1775160B00895D8A /* Run grunt task for building web application */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
@@ -342,14 +342,14 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "TravisCI-Release";
-			productName = TravisCI;
-			productReference = 1D6058910D05DD3D006BFB54 /* Travis-CI.app */;
+			name = "MantisCI-Release";
+			productName = MantisCI;
+			productReference = 1D6058910D05DD3D006BFB54 /* Mantis-CI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47A2A74E1779073200D711CB /* TravisCI-Dev */ = {
+		47A2A74E1779073200D711CB /* MantisCI-Dev */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47A2A7741779073200D711CB /* Build configuration list for PBXNativeTarget "TravisCI-Dev" */;
+			buildConfigurationList = 47A2A7741779073200D711CB /* Build configuration list for PBXNativeTarget "MantisCI-Dev" */;
 			buildPhases = (
 				47A2A7511779073200D711CB /* Run grunt task for building web application */,
 				47A2A7521779073200D711CB /* Copy www directory */,
@@ -363,9 +363,9 @@
 			dependencies = (
 				47A2A74F1779073200D711CB /* PBXTargetDependency */,
 			);
-			name = "TravisCI-Dev";
-			productName = TravisCI;
-			productReference = 47A2A7771779073200D711CB /* Travis-CI-Dev.app */;
+			name = "MantisCI-Dev";
+			productName = MantisCI;
+			productReference = 47A2A7771779073200D711CB /* Mantis-CI-Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -376,7 +376,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TravisCI" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MantisCI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -400,8 +400,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				47A2A74E1779073200D711CB /* TravisCI-Dev */,
-				1D6058900D05DD3D006BFB54 /* TravisCI-Release */,
+				47A2A74E1779073200D711CB /* MantisCI-Dev */,
+				1D6058900D05DD3D006BFB54 /* MantisCI-Release */,
 			);
 		};
 /* End PBXProject section */
@@ -588,12 +588,12 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TravisCI/TravisCI-Prefix.pch";
+				GCC_PREFIX_HEADER = "MantisCI/MantisCI-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "TravisCI/TravisCI-Info.plist";
+				INFOPLIST_FILE = "MantisCI/MantisCI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Travis-CI";
+				PRODUCT_NAME = "Mantis-CI";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -606,12 +606,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TravisCI/TravisCI-Prefix.pch";
+				GCC_PREFIX_HEADER = "MantisCI/MantisCI-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "TravisCI/TravisCI-Info.plist";
+				INFOPLIST_FILE = "MantisCI/MantisCI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Travis-CI";
+				PRODUCT_NAME = "Mantis-CI";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -626,12 +626,12 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TravisCI/TravisCI-Prefix.pch";
+				GCC_PREFIX_HEADER = "MantisCI/MantisCI-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "$(SRCROOT)/TravisCI/TravisCI-Dev-Info.plist";
+				INFOPLIST_FILE = "MantisCI/MantisCI-Dev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Travis-CI-Dev";
+				PRODUCT_NAME = "Mantis-CI-Dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -644,12 +644,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TravisCI/TravisCI-Prefix.pch";
+				GCC_PREFIX_HEADER = "MantisCI/MantisCI-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "$(SRCROOT)/TravisCI/TravisCI-Dev-Info.plist";
+				INFOPLIST_FILE = "MantisCI/MantisCI-Dev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Travis-CI-Dev";
+				PRODUCT_NAME = "Mantis-CI-Dev";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -741,7 +741,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TravisCI-Release" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MantisCI-Release" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -750,7 +750,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47A2A7741779073200D711CB /* Build configuration list for PBXNativeTarget "TravisCI-Dev" */ = {
+		47A2A7741779073200D711CB /* Build configuration list for PBXNativeTarget "MantisCI-Dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47A2A7751779073200D711CB /* Debug */,
@@ -759,7 +759,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TravisCI" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MantisCI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

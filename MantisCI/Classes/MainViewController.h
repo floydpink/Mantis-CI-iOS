@@ -16,20 +16,25 @@
  specific language governing permissions and limitations
  under the License.
  */
+
 //
-//  main.m
-//  TravisCI
+//  MainViewController.h
+//  MantisCI
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cordova/CDVViewController.h>
+#import <Cordova/CDVCommandDelegateImpl.h>
+#import <Cordova/CDVCommandQueue.h>
 
-int main(int argc, char* argv[])
-{
-    @autoreleasepool {
-        int retVal = UIApplicationMain(argc, argv, nil, @"AppDelegate");
-        return retVal;
-    }
-}
+@interface MainViewController : CDVViewController
+
+@end
+
+@interface MainCommandDelegate : CDVCommandDelegateImpl
+@end
+
+@interface MainCommandQueue : CDVCommandQueue
+@end
