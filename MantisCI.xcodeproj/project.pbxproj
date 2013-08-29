@@ -101,7 +101,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Mantis-CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mantis-CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Mantis CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mantis CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		47290F0917777A2A00BAE9E2 /* ps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ps; sourceTree = "<group>"; };
 		472E48411773E28300663B66 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		472E48431773E29000663B66 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		47A2A7771779073200D711CB /* Mantis-CI-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mantis-CI-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A2A7771779073200D711CB /* Mantis CI Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mantis CI Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A2A77B177913EF00D711CB /* MantisCI-Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MantisCI-Dev-Info.plist"; path = "../MantisCI-Dev-Info.plist"; sourceTree = "<group>"; };
 		47A9B6F517B4C2C80036EB9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		47A9B6F717B4C2D80036EB9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -213,8 +213,8 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Mantis-CI.app */,
-				47A2A7771779073200D711CB /* Mantis-CI-Dev.app */,
+				1D6058910D05DD3D006BFB54 /* Mantis CI.app */,
+				47A2A7771779073200D711CB /* Mantis CI Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,7 +344,7 @@
 			);
 			name = "MantisCI-Release";
 			productName = MantisCI;
-			productReference = 1D6058910D05DD3D006BFB54 /* Mantis-CI.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Mantis CI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		47A2A74E1779073200D711CB /* MantisCI-Dev */ = {
@@ -365,7 +365,7 @@
 			);
 			name = "MantisCI-Dev";
 			productName = MantisCI;
-			productReference = 47A2A7771779073200D711CB /* Mantis-CI-Dev.app */;
+			productReference = 47A2A7771779073200D711CB /* Mantis CI Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -593,7 +593,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MantisCI/MantisCI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Mantis-CI";
+				PRODUCT_NAME = "Mantis CI";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -611,7 +611,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MantisCI/MantisCI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Mantis-CI";
+				PRODUCT_NAME = "Mantis CI";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -631,7 +631,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MantisCI/MantisCI-Dev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Mantis-CI-Dev";
+				PRODUCT_NAME = "Mantis CI Dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -649,7 +649,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MantisCI/MantisCI-Dev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Mantis-CI-Dev";
+				PRODUCT_NAME = "Mantis CI Dev";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
